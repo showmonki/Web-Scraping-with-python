@@ -61,3 +61,8 @@ browser = webdriver.PhantomJS(executable_path='/Users/nanzou/anaconda3/phantomjs
 url='https://skii.tmall.com/search.htm?spm=a1z10.1-b-s.w5001-14630548611.4.3819da66mYXo6M&scene=taobao_shop'
 get_list(url)
 df.to_excel('/Users/nanzou/SK-II info.xlsx','SK-II')
+
+
+## get_list: get the product list from Tmall store searching page
+## get_info: get the information of each products (Monthly sales, productname, price)
+## Finally return the product list with sales information. 
