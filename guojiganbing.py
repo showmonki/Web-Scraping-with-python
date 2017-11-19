@@ -53,3 +53,7 @@ url='http://www.ihepa.com:8088/tags/bz/6?pager.offset=20'
 get_news(url)
 df.to_excel('C:\\Users\\User\\Desktop\\BMS.xlsx','page2')
 
+## 国际肝病网页文章获取
+## 限制文章发布时间，符合条件的文章进行文章具体内容的获取
+## 动态网页 使用phantomjs加载网页，延迟后获取文章具体内容
+## 通过pandas建立dataframe，并导出为xlsx文件
