@@ -1,5 +1,6 @@
 # Web-Scraping-with-python
 Python Code for Web Scraping
+All information stored in new excel file
 
 ## Dianpin
 Get the city list and city_id
